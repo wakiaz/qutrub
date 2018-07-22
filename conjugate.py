@@ -137,7 +137,7 @@ def main():
 			    transitive=True;
 			else :
 			    transitive=False;
-			text=do_sarf(word,future_type,all,past,future,passive,imperative,future_moode,confirmed,transitive,display_format);
+			text=mosaref_main.do_sarf(word,future_type,all,past,future,passive,imperative,future_moode,confirmed,transitive,display_format);
 			print text.encode("utf8")
 if __name__ == "__main__":
 	main()
