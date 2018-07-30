@@ -1094,10 +1094,6 @@ def homogenize(word_nm, harakat):
                  shadda_in_next:
                     new_harakat += DAMMA
                     new_word += WAW
-                elif  actual_letter == WAW and (actual_haraka == DAMMA) and previous_haraka in (FATHA,) and \
-                 shadda_in_next:
-                    new_harakat += DAMMA
-                    new_word += WAW
                 elif  actual_letter == WAW and (actual_haraka == DAMMA) and\
                  shadda_in_next:
                     new_harakat += DAMMA
